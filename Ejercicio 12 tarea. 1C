@@ -1,0 +1,21 @@
+Algoritmo Ejercicio12tarea
+	Definir nota_asignatura1, nota_asignatura2, nota_asignatura3, nota_asignatura4, nota_asignatura5  Como Entero
+	Definir promedio_asinaturas Como Real
+	Escribir "Digite la nota de la primera asignatura "
+	Leer nota_asignatura1
+	Escribir "Digite la nota de la segunda asignatura "
+	Leer nota_asignatura2
+	Escribir "Digite la nota de la tercer asignatura "
+	Leer nota_asignatura3
+	Escribir "Digite la nota de la cuarta asignatura "
+	Leer nota_asignatura4
+	Escribir "Digite la nota de la quinta asignatura "
+	Leer nota_asignatura5
+	promedio_asinaturas = (nota_asignatura1 + nota_asignatura2 + nota_asignatura3 + nota_asignatura4 + nota_asignatura5) / 5
+	Escribir "El promedio de las cinco notas es de: ", promedio_asinaturas
+	Si promedio_asinaturas >= 70 Entonces
+		Escribir "Ha aprobado el semestre "
+	Sino 
+		Escribir "Ha reprobado el semestre "
+	FinSi
+FinAlgoritmo
