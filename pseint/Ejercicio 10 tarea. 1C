@@ -1,0 +1,12 @@
+Algoritmo Ejercicio10tarea
+	Definir córdobas Como entero
+	Definir tipo_de_cambio, dólares Como Real
+	tipo_de_cambio = 36.20
+	Escribir "Cantidad de córdobas que desea convertir: "
+	Leer córdobas
+	Dólares = córdobas / tipo_de_cambio
+	
+	Escribir "La conversión de ", córdobas, " córdobas a es: ", REDON(dólares*100)/100, " dólares "
+	
+	
+FinAlgoritmo

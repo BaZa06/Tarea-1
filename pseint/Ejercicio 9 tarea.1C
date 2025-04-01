@@ -1,0 +1,10 @@
+Algoritmo Ejercicio9tarea
+	Definir radio, valorPi Como real
+	Escribir "Digite el radio del círculo: "
+	Leer radio
+	Área_circulo = 3.1416 * radio^2
+	
+	Escribir "El área del círculo con un radio de ", radio, " es: ", Área_circulo
+	
+	
+FinAlgoritmo
